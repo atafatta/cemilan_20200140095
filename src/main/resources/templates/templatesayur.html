@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SAYUR MAYUR MANJUR</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TOTAL AKHIR PEMBELIAN SAYUR</div>
+        <hr>
+        <table border="1">
+        <p>Nama Sayur           : <b th:text="${nama}"></b>
+        <p>Harga Perkilo        : <b th:text="${harga}"></b>
+        <p>Jumlah Beli (Kg)     : <b th:text="${kilogram}"></b>
+        <p>Jumlah Bayar Awal    : <b th:text="${hargawal}"></b>
+        <p>Jumlah Diskon (%)    : <b th:text="${hargadiskon}"></b>
+        <p>Total Harga Diskon   : <b th:text="${diskonmula}"></b>
+        <p>Total Dibayar        : <b th:text="${totalpembayaran}"></b>
+        </table>
+    <b> Jumlah Uang Customer : </b>
+    Rp.<b th text ="${uang_kembalian}"></b>
+    </body>
+</html>
